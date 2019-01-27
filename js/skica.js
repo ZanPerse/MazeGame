@@ -55,16 +55,6 @@ function draw() {
   for (var i = 0; i < grid.length; i++) {
     grid[i].render(255, 0, 255, 100);
   }
-
-  //HIGHLIGHTS THE CELLS THAT ARE IN THE STACK
-  for (var j = 0; j < stack.length; j++) {
-    if (finished) {
-      stack[j].renderInStack(255, 255, 0, 90);
-    } else {
-      stack[j].renderInStack(255, 255, 255, 80);
-    }
-  }
-
   current.visited = true; //SETS THE CURRENT CELL TO VISITED
 
   current.curentCell(); //RENDERS AN IMAGE IN THE CURRENT CELL
