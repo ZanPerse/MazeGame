@@ -1,0 +1,73 @@
+
+@font-face {
+font-family: myfont2;
+src: url("../fonts/dutch1.ttf");
+}
+h1{
+text-align: center;
+font-family: myfont2;
+color:white;
+font-size: 80px;
+letter-spacing: 10px;
+
+}
+body,html{
+min-height: 100%;
+}
+body{
+  background: url("../slike/castle1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pisava1{
+  font-family: myfont2;
+  color:Black;
+  font-size: 30px;
+}
+#button{
+  width:200px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: myfont2;
+  font-size: 30px;
+}
+#solve{
+  width:128px;
+  height: 128px;
+  display: none;
+}
+#start{
+  width:128px;
+  height: 128px;
+  display: inline;
+}
+canvas{
+  display: block;
+  margin: 50px auto;
+}
+ul li{
+  display: inline;
+}
+ul{
+  margin: 0 auto;
+  text-align: center;
+  height:130px;
+}
+div{
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.Image{
+  width:64px;
+  height:64px;
+}
